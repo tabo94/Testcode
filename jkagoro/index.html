@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Tusubira Rebecca" />
+    <script type="text/javascript" src="jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="c.js"></script>
+
+    <!--add website icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- link to css file -->
+  <link rel="stylesheet" href="b.css">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>T-Tech</title>
+
+  </head>
+  <body class="whole">
+
+    <div class="fixednav">
+      <div class="menu">
+        <ul >
+          <li><a class="active" href="index.html"><i class = "fa fa-home"></i></a></li>
+          <li><a href="#service" class="dropdowner" id="dropdowner">SERVICES</a>
+            <div class="dropdown" id="dropdown">
+              <a href="#books">Books</a>
+              <a href="#docrecovery">Document Recovery and Conversion</a>
+              <a href="#research">Research and Report</a>
+            </div>
+          </li>
+          <li><a href="#contacts">CONTACT US</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#">BLOG</a></li>
+        </ul>
+      </div>
+      <div class="modtech">
+          <h1>T-Tech</h1>
+      </div>
+    </div>
+
+    <div class="getin">
+      <div class="loginbtn" id="loginbtn">
+        <h1>Log In</h1>
+      </div>
+      <div class="signupbtn" id="signupbtn">
+        <h1>Sign Up</h1>
+      </div>
+    </div>
+    <div class="everything">
+      <div class="info">
+        <div class="notes">
+          <h2>T-Tech</h2>
+          <p>T-Tech is a consultancy firm that deals
+            in everything tech-y. We aim to provide quality services
+            in a timely fashion.
+            We offer a variety of <a href="#service">services</a> ranging from technical, scanning
+            reseach and report.
+          </p>
+          <p>Services:
+            <ul>
+              <li>Books</li>
+              <li>Document Recovery and Conversion</li>
+              <li>Reasearch and Report</li>
+              <li>Scanning(<a href="#">Find our offices</a>)</li>
+              <li><a href="#science">Modern Science for Education</a></li>
+            </ul>
+          </p>
+        </div>
+        <div class="picture">
+          <img class="img1" src="macbook.jpeg" alt="Scanner Image">
+        </div>
+      </div>
+      <div class="services" id="service">
+
+        <div class="books" id="books">
+          <h2>Books</h2>
+          <div class="table">
+            <table>
+              <tr>
+                <th>Title</th>
+                <th>Summary</th>
+                <th>Author</th>
+                <th>Date</th>
+                <th>Download</th>
+                <th>Price</th>
+              </tr>
+              <tr>
+                <td>Scan and Shred</td>
+                <td>......................</td>
+                <td>John Kagoro</td>
+                <td>date</td>
+                <td><button type="button" name="button"></button></td>
+                <td></td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+        <div class="virtual" id="science">
+          <h2>Modern Science</h2>
+            <p class="virtualp">We aim to establish a virtual learning enterprise for enhancement of STEM education in Kampala
+            STEM is a curriculum based on the idea of educating students in four specific disciplines — science, technology,
+            engineering and mathematics — in an interdisciplinary and applied approach <br>
+            <a href="https://www.livescience.com/43296-what-is-stem-education.html" style="color:#a376af;" target="_blank">Learn More</a></p>
+        </div>
+        <div class="documents" id="docrecovery">
+
+        </div>
+        <div class="research" id = "research">
+
+        </div>
+      </div>
+      <div class="contactpart" id="contacts">
+        <div class="schedule">
+          <form class="scheduleform" id="scheduleform">
+            <h5 style="padding:5px;">Schedule an Appointment with Us</h5>
+            <p style="text-align:center;margin-top:0px">Press the dropdown to pick a date <br>
+            Note: Please do not schedule any appointment for Sunday</p>
+            <input type="date" class="rebecca" id="fordate" name="scheduledate" placeholder="" required><br>
+            <p style="text-align:center;margin-top:0px;margin-bottom:0px;">Choose a time period that is convenient for you</p>
+            <input type="radio" id="t1" name="timeslot" value="morning">Morning Hours <br>
+            <input type="radio" id="t2" name="timeslot" value="afternoon">Afternoon <br>
+            <input type="radio" id="t3" name="timeslot" value="evening">Evening <br>
+            <input type="submit" class="schedule_button" value="Schedule" >
+          </form>
+        </div>
+        <div class="textit">
+          <p class="tabos_par">Ask a question or leave a comment here</p>
+          <form class="comment_email" id="textit">
+            <textarea class="area" id="c1" name="name" rows="8" cols="80" placeholder="write here" required></textarea><br>
+            <input class="comment_button" type="submit" name="" value="Comment/Ask">
+          </form>
+        </div>
+      </div>
+      <div class="about" id="about">
+        <h2>ABOUT US</h2>
+        <h4>What Is T-Tech Africa</h4>
+          <div class="first_history">
+            <h5>Vision, Mission and Core Values Statement (<a href="draft_file.zip">Download</a>)</h5>
+            <h5>Vision</h5>
+              <p>To help Africa to be a source of inspiration to others</p>
+            <h5>Mission</h5>
+              <p>To help Africa emerge from obscurity and become one of the world’s knowledge and innovation engines</p>
+            <h5>Core Values</h5>
+            <ul class="corevalues">
+              <li>Passion for technology, innovation</li>
+              <li>Passion for African development</li>
+              <li>Willingness to give those in need</li>
+              <li>Hard work</li>
+              <li>Integrity</li>
+            </ul>
+          </div>
+          <div class="papa">
+            <div class="papapic">
+              <img class="papaspic" src="papa.jpg" alt="Image">
+            </div>
+            <div class="bio">
+              <h5>ENG JOHN KAGORO TUSUBIRA</h5>
+              <p>Currently working at Civil Aviation Authority in the Airports and Aviation Security as the Director.
+              </p>
+              <p class="last">
+                I am passionate about aeronautical technology. My main interests are in aeronautical
+                 telecommunications, air navigation and surveillance. I have a B.Sc(Eng), a Post Graduate
+                  Diploma in Computer Science and an M.Eng and from Makerere University. I am Registered
+                  with the Engineers Registration Board of Uganda, and a Member of IEEE. In the IEEE,
+                  I subscribe to the Communications, Computer, Aerospace Systems and Security and Privacy
+                  societies. My other interests are in Simulation and Software-Based Radio.
+              </p>
+            </div>
+
+          </div>
+      </div>
+      <div class="bottom">
+        <div class="contacts">
+          <div class="contactdetails">
+            <h5>How to contact us</h5>
+            <h6>Chief Consultant</h6>
+            <ul>
+              <li>+2567527992221</li>
+              <li>Email: <a href="mailto:jktusubira@gmail.com">HERE</a></li>
+              <li>LinkedIn: </li>
+            </ul>
+            <h6>Assistants</h6>
+            <ul>
+              <li>+256777499736</li>
+              <li>+256772455157</li>
+              <li>Email: <a href="mailto:tustabo@gmail.com">HERE</a></li>
+            </ul>
+          </div>
+          <div class="socialmedia">
+            <a href="#" class = "fa fa-twitter"></a>
+            <a href="#" class = "fa fa-facebook"></a>
+            <a href="#" class = "fa fa-skype"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2017 <a href="#">rebeccatusubira.com</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="form" id="loginbox">
+    <div class="login" align = "center" >
+        <div class="title">
+          <h3>Log In</h3>
+          <span class="close">&times;</span>
+        </div>
+
+        <div class="loginhere">
+          <form class="loginform" id="loginform" align="center">
+            <br>
+            <br>
+            <input id="l1" type="text" class="rebecca" name="email" value="" placeholder="Email Address" maxlength="15" autofocus autocomplete="on" required><br>
+            <input id="l2" type="password" class="rebecca" name="psw" value="" placeholder="Password" maxlength="15" required><br>
+            <input id="l3" type="submit" class="loginsubmit" value="LOG IN">
+          </form>
+        </div>
+        <div class="down">
+          <p>Don't have an account? <a href="#">Register Here</a></p>
+        </div>
+    </div>
+    </div>
+    <div class="form1" id="signupbox">
+    <div class="signup" align = "center" >
+        <div class="title">
+          <h3>Sign Up</h3>
+          <span class="close">&times;</span>
+        </div>
+
+        <div class="signuphere">
+          <form class="signupform" id="signupform" align="center">
+            <br>
+            <br>
+            <br>
+            <input id="s1" type="text" class="rebecca" value="" placeholder="First Name" autofocus autocomplete="on" required><br>
+            <input id="s2" type="text" class="rebecca" value="" placeholder="Last Name" autocomplete="on" required><br>
+            <input id="s3" type="text" class="rebecca" value="" placeholder="Username" maxlength="20" autocomplete="on" required><br>
+            <input id="s4" type="email" class="rebecca"  value="" placeholder="Email Address" autocomplete="on" required><br>
+            <input id="s5" type="password" class="rebecca" value="" placeholder="Password" required><br>
+            <input id="s6" type="password" class="rebecca" value="" placeholder="Confirm Password" maxlength="15" required><br>
+            <input id="" type="submit" class="loginsubmit" value="SIGN UP">
+          </form>
+        </div>
+        <div class="down">
+          <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
